@@ -1,12 +1,22 @@
-pairs = {
-    'white_on_black': (
-        (255, 255, 255),
-        (0, 0, 0)
-    ).
-    'red_on_black': (
-        (255, 0, 0),
-        (0, 0, 0)
-    ).
-}
+import webcolors
 
-print(pairs['white_on_black'])
+pairs = {}
+
+def color(name):
+    return tuple(webcolors.name_to_rgb(name))
+
+def pair(
+    name='default', 
+    foreground='white', 
+    background='black'
+):
+    pairs[name] = {
+        'foreground': color(foreground),
+        'background': color(background)
+    }
+
+pair()
+pair('error', 'red')
+pair('success', 'green')
+
+print(pairs)
