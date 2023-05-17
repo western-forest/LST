@@ -1,0 +1,18 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.verticalScrollbarSize": 5,
+    "editor.fontSize": 19,
+    "editor.lineNumbers": "off",
+    "git.decorations.enabled": false,
+    "editor.glyphMargin": false,
+    "breadcrumbs.enabled": false,
+    "editor.folding": false,
+    "workbench.editor.showTabs": false,
+    "editor.lineDecorationsWidth": 26, // undocumented
+    "editor.lineNumbersMinChars": 0,  // undocumented
+    "[python]": {
+        "editor.rulers": [
+            { "color": "Chartreuse", "column": 80}
+        ]
+    }
+}

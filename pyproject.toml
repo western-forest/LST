@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lst"
+version = "1.0.0"
+description = "minimalist lists for cli"
+authors = ["Peaceful Western Forest Folk <western.forest@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+webcolors = "^1.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
