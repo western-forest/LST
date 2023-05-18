@@ -1,11 +1,17 @@
 import curses
-from curses import wrapper
+import random
 
-def main(stdscr):
-    stdscr.clear()
-    stdscr.addstr("hi curses")
-    stdscr.refresh()
-    stdscr.getkey()
+def ui_loop(standard_screen):
+    standard_screen.clear()
+    standard_screen.addstr("hi curses")
+    standard_screen.refresh()
+    standard_screen.getkey()
 
-wrapper(main)
+curses.wrapper(ui_loop)
 
+# print(random.randint(0,5))
+# print(random.randint(0,5))
+# print(random.randint(0,5))
+# print(random.randint(0,5))
+# print(random.randint(0,5))
+# print(random.randint(0,5))

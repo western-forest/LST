@@ -1,7 +1,7 @@
 {
     "editor.minimap.enabled": false,
     "editor.scrollbar.verticalScrollbarSize": 5,
-    "editor.fontSize": 19,
+    "editor.fontSize": 16,
     "editor.lineNumbers": "off",
     "git.decorations.enabled": false,
     "editor.glyphMargin": false,
